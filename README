@@ -65,7 +65,7 @@ named generate-wallet.html.sig which you can use to:
 For example, if you have GPG installed, you should be able cd to the appropriate 
 directory and type in these two commands:
 
-  gpg --recv-key 36E1D9B6
+  gpg --recv-key 21792BF5
   gpg --verify --with-fingerprint generate-wallet.html.sig generate-wallet.html 
 
 And then verify the resulting signature's fingerprint against Canton Becker's
